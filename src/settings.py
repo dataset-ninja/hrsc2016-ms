@@ -58,7 +58,7 @@ REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 CITATION_URL: Optional[str] = "https://www.kaggle.com/datasets/weiming97/hrsc2016-ms-dataset"
 AUTHORS: Optional[List[str]] = ["Weiming Chen", "Bing Han", "Zheng Yang", "Xinbo Gao"]
 
-ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["Xidian University", "Chongqing University of Posts and Telecommunications"]
+ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["Xidian University", "Chongqing University of Posts and Telecommunications, China"]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = ["https://en.xidian.edu.cn/","http://www.cqupt.edu.cn/"]
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
