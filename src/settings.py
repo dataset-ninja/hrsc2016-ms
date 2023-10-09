@@ -15,7 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "HRSC2016-MS"
 PROJECT_NAME_FULL: str = "HRSC2016-MS: A Multi-Scale Updating Version of High Resolution Ship Collections 2016"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
