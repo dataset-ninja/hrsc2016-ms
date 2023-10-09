@@ -1,4 +1,4 @@
-**HRSC2016-MS: A Multi-Scale Updating Version of High Resolution Ship Collections 2016 (HRSC2016)** is a dataset for an object detection task. Possible applications of the dataset could be in the logistics industry. 
+**HRSC2016-MS: A Multi-Scale Updating Version of High Resolution Ship Collections 2016** is a dataset for an object detection task. It is used in the logistics and safety industries. 
 
 The dataset consists of 1680 images with 7655 labeled objects belonging to 1 single class (*ship*).
 
