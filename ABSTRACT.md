@@ -1,4 +1,4 @@
-**HRSC2016-MS: A Multi-Scale Updating Version of High Resolution Ship Collections 2016 (HRSC2016)** was developed by expanding and re-annotating the HRSC2016 dataset. Additionally, a novel multi-scale ship-detection framework (MSSDet) is proposed. 
+**HRSC2016-MS: A Multi-Scale Updating Version of High Resolution Ship Collections 2016 (HRSC2016)** was developed by expanding and re-annotating the [HRSC2016](https://scholar.google.com/scholar_lookup?title=Object+detection+in+optical+remote+sensing+images:+A+survey+and+a+new+benchmark&author=Li,+K.&author=Wan,+G.&author=Cheng,+G.&author=Meng,+L.&author=Han,+J.&publication_year=2020&journal=ISPRS+J.+Photogramm.+Remote+Sens.&volume=159&pages=296%E2%80%93307&doi=10.1016/j.isprsjprs.2019.11.023) dataset. Additionally, a novel multi-scale ship-detection framework (MSSDet) is proposed. 
 
 HRSC2016 is the only open-source optical remote-sensing ship dataset. Owing to the difficulty of data acquisition and annotation, this dataset only contains 1070 images with 2976 ship instances. Moreover, most of the objects in the HRSC2016 dataset are larger than those in natural images. As is well known, the detection of small and size-varied objects is a challenging problem. Therefore, authors built an open-source ship detection benchmark with rich multi-scale ship targets named HRSC2016-MS.
 
@@ -30,7 +30,7 @@ The optical remote-sensing images in HRSC2016-MS come from two sources: previous
 <table>
   <tr>
     <th>Dataset</th>
-    <th>HRSC2016 [28]</th>
+    <th>HRSC2016</th>
     <th>HRSC2016-MS</th>
   </tr>
   <tr>
