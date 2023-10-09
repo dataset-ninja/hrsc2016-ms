@@ -14,15 +14,15 @@ from dataset_tools.templates import (
 # * Before uploading to instance #
 ##################################
 PROJECT_NAME: str = "HRSC2016-MS"
-PROJECT_NAME_FULL: str = "HRSC2016-MS: A Multi-Scale Updating Version of High Resolution Ship Collections 2016 (HRSC2016)"
+PROJECT_NAME_FULL: str = "HRSC2016-MS: A Multi-Scale Updating Version of High Resolution Ship Collections 2016"
 HIDE_DATASET = True  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.ODbL_1_0()
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Logistics(is_used=False)]
-CATEGORY: Category = Category.Satellite()
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Logistics(), Industry.Safety()]
+CATEGORY: Category = Category.Safety(extra=[Category.Satellite(),Category.Aerial()])
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
