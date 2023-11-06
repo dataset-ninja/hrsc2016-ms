@@ -22,7 +22,7 @@ HIDE_DATASET = False  # set False when 100% sure about repo quality
 ##################################
 LICENSE: License = License.ODbL_1_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Logistics(), Industry.Safety()]
-CATEGORY: Category = Category.Safety(extra=[Category.Satellite(),Category.Aerial()])
+CATEGORY: Category = Category.Safety(extra=[Category.Satellite(), Category.Aerial()])
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
@@ -57,6 +57,8 @@ REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
 CITATION_URL: Optional[str] = "https://www.kaggle.com/datasets/weiming97/hrsc2016-ms-dataset"
 AUTHORS: Optional[List[str]] = ["Weiming Chen", "Bing Han", "Zheng Yang", "Xinbo Gao"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["bhan@xidian.edu.cn"]
+
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["Xidian University", "Chongqing University of Posts and Telecommunications, China"]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = ["https://en.xidian.edu.cn/","http://www.cqupt.edu.cn/"]
@@ -110,6 +112,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
