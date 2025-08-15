@@ -1,6 +1,6 @@
 Dataset **HRSC2016-MS** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzI1MDVfSFJTQzIwMTYtTVMvaHJzYzIwMTYtbXMtRGF0YXNldE5pbmphLnRhciIsICJzaWciOiAiaVloR0VnZUxaSnZNT3JWSGk5TVpxekpmdk10OTR6ZzZhS0ZRcmJQOFVzYz0ifQ==)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogInMzOi8vc3VwZXJ2aXNlbHktZGF0YXNldHMvMjUwNV9IUlNDMjAxNi1NUy9ocnNjMjAxNi1tcy1EYXRhc2V0TmluamEudGFyIiwgInNpZyI6ICJNTlFHOC9MdXluUkh5SDY1TkxrVjdrVjU0TElkeXFNRmxZRnVFQ09mYzZRPSJ9?response-content-disposition=attachment%3B%20filename%3D%22hrsc2016-ms-DatasetNinja.tar%22)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
